@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "273446768987",
-    "project_id": "treasuregame-4d8bb",
-    "storage_bucket": "treasuregame-4d8bb.firebasestorage.app"
+    "project_number": "361779326656",
+    "project_id": "treasuregame-2e6d9",
+    "storage_bucket": "treasuregame-2e6d9.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:273446768987:android:c78b360ea2069f2d7f0a7e",
+        "mobilesdk_app_id": "1:361779326656:android:ca1eab00b3f2f97d0c4725",
         "android_client_info": {
-          "package_name": "com.example"
+          "package_name": "com.example.treasure_game_admin_panel"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyD0sFW4QrorlnG_QNQbki3dDs4jMMSdxZM"
+          "current_key": "AIzaSyB4AZfBfu5Igy0OJfj0Ck7EpJtSBtD2dMY"
         }
       ],
       "services": {
@@ -26,15 +26,15 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:273446768987:android:cc519fac4a6ad0857f0a7e",
+        "mobilesdk_app_id": "1:361779326656:android:e26fa3fd229cfc140c4725",
         "android_client_info": {
-          "package_name": "com.game.app"
+          "package_name": "com.example.treasure_game_v4"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyD0sFW4QrorlnG_QNQbki3dDs4jMMSdxZM"
+          "current_key": "AIzaSyB4AZfBfu5Igy0OJfj0Ck7EpJtSBtD2dMY"
         }
       ],
       "services": {

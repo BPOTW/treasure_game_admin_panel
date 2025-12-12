@@ -1,22 +1,20 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flutter/material.dart';
 
 final FirebaseFirestore firestore = FirebaseFirestore.instance;
 
 void updateUsersData(
-    String userKey, String keyOne, bool valueOne, int increment) async {
+    String docId, String keyOne, var valueOne, bool val) async {
   try {
-    Map<String, dynamic> data = await getData();
+    print(keyOne);
+    print(valueOne);
     WriteBatch batch = firestore.batch();
 
-    DocumentReference gameData =
-        firestore.collection('MainGameData').doc('gamedata');
     DocumentReference userData =
-        firestore.collection('MainUsersData').doc(userKey);
-
-    batch
-        .update(gameData, {'joinedplayers': data['joinedplayers'] + increment});
-    batch.update(userData, {keyOne: valueOne});
+        firestore.collection('users').doc(docId);
+    String paymentStatus = val ? (valueOne ? 'Verified' : 'Not Verified') : valueOne;
+    print(paymentStatus);
+    !val ? batch.update(userData, {'isPaymentVerified': false}) : (){};
+    batch.update(userData, {keyOne: valueOne, 'isGamePassEnable': (paymentStatus == 'Verified' ? true : false), 'paymentStatus':paymentStatus});
     batch.commit();
     print('Batch Data updated successfully');
   } catch (error) {
@@ -26,7 +24,7 @@ void updateUsersData(
 
 Future<Map<String, dynamic>> getData() async {
   DocumentReference docRef =
-      firestore.collection('MainGameData').doc('gamedata');
+      firestore.collection('gameData').doc('gameStates');
   Map<String, dynamic> value = {};
   try {
     // Fetch the document once
@@ -48,7 +46,7 @@ Future<Map<String, dynamic>> getData() async {
 
 void updateGameData(String key, var Value) async {
   try {
-    await firestore.collection('MainGameData').doc('gamedata').update({
+    await firestore.collection('gameData').doc('gameStates').update({
       key: Value,
     });
     print('Game Data Updated');

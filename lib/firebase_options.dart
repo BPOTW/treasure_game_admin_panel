@@ -41,48 +41,49 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyD_FoNEBs-G1-tYWdwBMLGa5nK8E8_39mA',
-    appId: '1:273446768987:web:3e0444d8278cae9e7f0a7e',
-    messagingSenderId: '273446768987',
-    projectId: 'treasuregame-4d8bb',
-    authDomain: 'treasuregame-4d8bb.firebaseapp.com',
-    storageBucket: 'treasuregame-4d8bb.firebasestorage.app',
-    measurementId: 'G-157BMX5DCH',
+    apiKey: 'AIzaSyCx2vJZ0Ue1NuQHvqKbvefA4O8XWcf48V4',
+    appId: '1:361779326656:web:02242135a39f1aa30c4725',
+    messagingSenderId: '361779326656',
+    projectId: 'treasuregame-2e6d9',
+    authDomain: 'treasuregame-2e6d9.firebaseapp.com',
+    storageBucket: 'treasuregame-2e6d9.firebasestorage.app',
+    measurementId: 'G-S4QSJK8GMB',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyD0sFW4QrorlnG_QNQbki3dDs4jMMSdxZM',
-    appId: '1:273446768987:android:c78b360ea2069f2d7f0a7e',
-    messagingSenderId: '273446768987',
-    projectId: 'treasuregame-4d8bb',
-    storageBucket: 'treasuregame-4d8bb.firebasestorage.app',
+    apiKey: 'AIzaSyB4AZfBfu5Igy0OJfj0Ck7EpJtSBtD2dMY',
+    appId: '1:361779326656:android:ca1eab00b3f2f97d0c4725',
+    messagingSenderId: '361779326656',
+    projectId: 'treasuregame-2e6d9',
+    storageBucket: 'treasuregame-2e6d9.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAOdq38pIaKfQ1FmEp_PX4zs4fJ4f_lq5k',
-    appId: '1:273446768987:ios:e1b2eeddfee8671d7f0a7e',
-    messagingSenderId: '273446768987',
-    projectId: 'treasuregame-4d8bb',
-    storageBucket: 'treasuregame-4d8bb.firebasestorage.app',
+    apiKey: 'AIzaSyAO3qHO8a20roM7uHzVmvN-M06zncIvkqU',
+    appId: '1:361779326656:ios:42d383bea888392e0c4725',
+    messagingSenderId: '361779326656',
+    projectId: 'treasuregame-2e6d9',
+    storageBucket: 'treasuregame-2e6d9.firebasestorage.app',
     iosBundleId: 'com.example.treasureGameAdminPanel',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyAOdq38pIaKfQ1FmEp_PX4zs4fJ4f_lq5k',
-    appId: '1:273446768987:ios:e1b2eeddfee8671d7f0a7e',
-    messagingSenderId: '273446768987',
-    projectId: 'treasuregame-4d8bb',
-    storageBucket: 'treasuregame-4d8bb.firebasestorage.app',
+    apiKey: 'AIzaSyAO3qHO8a20roM7uHzVmvN-M06zncIvkqU',
+    appId: '1:361779326656:ios:42d383bea888392e0c4725',
+    messagingSenderId: '361779326656',
+    projectId: 'treasuregame-2e6d9',
+    storageBucket: 'treasuregame-2e6d9.firebasestorage.app',
     iosBundleId: 'com.example.treasureGameAdminPanel',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyDnlFI6FiHJVV6mhoYwouG-n6FTxSNTHoA',
-    appId: '1:273446768987:web:8fe720cfcd802d327f0a7e',
-    messagingSenderId: '273446768987',
-    projectId: 'treasuregame-4d8bb',
-    authDomain: 'treasuregame-4d8bb.firebaseapp.com',
-    storageBucket: 'treasuregame-4d8bb.firebasestorage.app',
-    measurementId: 'G-XFEM72R08C',
+    apiKey: 'AIzaSyCx2vJZ0Ue1NuQHvqKbvefA4O8XWcf48V4',
+    appId: '1:361779326656:web:b03c0ed319e6a1090c4725',
+    messagingSenderId: '361779326656',
+    projectId: 'treasuregame-2e6d9',
+    authDomain: 'treasuregame-2e6d9.firebaseapp.com',
+    storageBucket: 'treasuregame-2e6d9.firebasestorage.app',
+    measurementId: 'G-ZSYDZW6W3Y',
   );
+
 }
